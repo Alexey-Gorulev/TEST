@@ -1,9 +1,11 @@
+import sys
 import os
 import jenkins
 from checksumdir import dirhash
 import time
 
 
+sys.path.append(os.environ['WORKSPACE'])
 JENKINS_URL = "http://54.243.7.9:8080"
 JENKINS_USERNAME = "jenkins"
 JENKINS_PASSWORD = "56a537a6ece74098a0d802036494859d"
