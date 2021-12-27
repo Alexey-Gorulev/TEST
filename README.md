@@ -1,10 +1,8 @@
 by default user is "knox"
 
-by default nifi host is "https://nifi:9443/"
+by default nifi host is "https://nifi:9443/", can be changed in "./topologies/sandbox.xml, line 85"
 
 password for knox user and master-password knox "./Dockerfile, line 2"
-
-nifi host "./topologies/sandbox.xml, line 85"
 
 example user config "./users.ldif"
 
